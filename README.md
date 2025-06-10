@@ -53,11 +53,45 @@ GET http://127.0.0.1:9090/get_table/Initial%20Investment
     ...
   ]
 }
+# Notes 
 **The Excel file path can be modified in main.py by changing the EXCEL_FILE variable.**
 
 **The current implementation returns the entire sheet data as JSON without pagination or filtering.**
 
 **Ensure the Excel sheet names are URL-encoded when calling the API.**
+
+# Postman collection
+# How to Use:
+
+**Open Postman**
+
+**Click Import → Raw Text**
+
+**Paste the contents of postman_collection.json**
+
+**Click Import**
+
+**Use the pre-configured endpoints to test**
+
+# Each request in the collection corresponds to a specific table from the Excel file, like:
+
+Initial Investment
+
+Operating Cashflows
+
+Salvage Value
+
+Discounted CF
+
+Investment Measures
+
+Book Value & Depreciation
+
+# Notes
+
+**Make sure your Excel file is named capbudg.xlsx and located inside the /Data directory.**
+
+**Ensure column names in each sheet are structured as headers for correct JSON parsing.**
 
 
 
