@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "a2beb92f-b498-481c-9007-9335941a3b2f",
+		"name": "FastAPI Excel Assignment Full",
+		"description": "Complete Postman collection for FastAPI Excel Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45756584",
+		"_collection_link": "https://deepika-4865061.postman.co/workspace/1da944dd-770e-4110-8eee-cf87d19f5cc3/collection/45756584-a2beb92f-b498-481c-9007-9335941a3b2f?action=share&source=collection_link&creator=45756584"
+	},
+	"item": [
+		{
+			"name": "List All Tables",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/list_tables",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"list_tables"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table: Initial Investment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/get_table?table_name=Initial Investment",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"get_table"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Initial Investment"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table: Operating Cashflows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/get_table?table_name=Operating Cashflows",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"get_table"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Operating Cashflows"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table: Salvage Value",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/get_table?table_name=Salvage Value",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"get_table"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Salvage Value"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table: Discounted CF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/get_table?table_name=Discounted CF",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"get_table"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Discounted CF"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table: Investment Measures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/get_table?table_name=Investment Measures",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"get_table"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Investment Measures"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table: Book Value & Depreciation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:9090/get_table?table_name=Book Value %26 Depreciation",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9090",
+					"path": [
+						"get_table"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Book Value & Depreciation"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
