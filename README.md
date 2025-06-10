@@ -87,6 +87,17 @@ Investment Measures
 
 Book Value & Depreciation
 
+## Postman Collection
+
+Use this file to test API endpoints in Postman:
+
+ [Download Collection](./fastapi_excel.postman_collection.json)
+
+### Steps:
+1. Open Postman → Import
+2. Select the `.json` file
+3. Run the saved requests
+
 # Notes
 
 **Make sure your Excel file is named capbudg.xlsx and located inside the /Data directory.**
